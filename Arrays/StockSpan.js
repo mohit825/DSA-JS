@@ -1,5 +1,5 @@
 /*
-GFG Medium
+GFG Medium Arrays
 
 The stock span problem is a financial problem where we have a series of n daily price quotes for a stock and we need to calculate the span of stocks price for all n days. 
 
