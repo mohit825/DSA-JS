@@ -23,3 +23,17 @@ function trappingWater(arr) {
 }
 
 trappingWater([7, 4, 0, 9]);
+
+/* Approach
+
+Approach 2 (Precalculation): This is an efficient solution based on the precalculation concept:
+
+In previous approach, for every element we needed to calculate the highest element on the left and on the right. 
+
+So, to reduce the time complexity: 
+
+For every element we can precalculate and store the highest bar on the left and on the right (say stored in arrays left[] and right[]). 
+Then iterate the array and use the precalculated values to find the amount of water stored in this index, 
+which is the same as ( min(left[i], right[i]) - arr[i] )
+
+*/
